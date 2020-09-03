@@ -4,5 +4,6 @@ from . import views
 
 urlpatterns = [
     path('', views.landing_page, name='landing page'),
-    path('redirectToPatientLogin', views.redirectToPatientLogin)
+    path('redirectToPatientLogin', views.redirectToPatientLogin),
+    path('redirectToClinicLogin', views.redirectToClinicLogin)
 ]
